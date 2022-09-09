@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import StepPhoneEmail from '../Steps/StepPhoneEmail';
-import StepOtp from '../Steps/StepOtp';
-import StepName from '../Steps/StepName';
-import StepAvatar from '../Steps/StepAvatar';
-import StepUsername from '../Steps/StepUsername';
+import StepPhoneEmail from '../steps/StepPhoneEmail';
+import StepOtp from '../steps/StepOtp';
+import StepName from '../steps/StepName';
+import StepAvatar from '../steps/StepAvatar';
+import StepUsername from '../steps/StepUsername';
 import styles from './Register.module.css';
 
 const steps = [StepPhoneEmail, StepOtp, StepName, StepAvatar, StepUsername];
