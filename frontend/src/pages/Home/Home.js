@@ -14,7 +14,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   const handleRegister = () => {
-    navigate('/register');
+    navigate('/authenticate');
   };
 
   return (
@@ -25,13 +25,10 @@ export default function Home() {
           adding people gradually to make sure nothing breaks.
         </p>
         <div>
-          <Button text="Get your username" onClick={handleRegister} />
+          <Button text="Let's Go" onClick={handleRegister} />
         </div>
         <div className={styles.signinWrapper}>
           <span className={styles.hasInvite}>Have an invite text?</span>
-          <Link to="/login" style={signInLinkStyle}>
-            Sign In
-          </Link>
         </div>
       </Card>
     </div>
